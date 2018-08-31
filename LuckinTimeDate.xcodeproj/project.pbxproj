@@ -12,8 +12,8 @@
 		9B88FF6921392FD3006863D8 /* LuckinTimeDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B88FF5B21392FD3006863D8 /* LuckinTimeDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B88FF762139312A006863D8 /* LuckinBaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B88FF742139312A006863D8 /* LuckinBaseManager.h */; };
 		9B88FF772139312A006863D8 /* LuckinBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF752139312A006863D8 /* LuckinBaseManager.m */; };
-		9B88FF7A2139318B006863D8 /* TimeDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B88FF782139318B006863D8 /* TimeDate.h */; };
-		9B88FF7B2139318B006863D8 /* TimeDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF792139318B006863D8 /* TimeDate.m */; };
+		9B88FF7E213941DF006863D8 /* TimeDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF7C213941DF006863D8 /* TimeDate.m */; };
+		9B88FF7F213941DF006863D8 /* TimeDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B88FF7D213941DF006863D8 /* TimeDate.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +35,8 @@
 		9B88FF6821392FD3006863D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B88FF742139312A006863D8 /* LuckinBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuckinBaseManager.h; sourceTree = "<group>"; };
 		9B88FF752139312A006863D8 /* LuckinBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckinBaseManager.m; sourceTree = "<group>"; };
-		9B88FF782139318B006863D8 /* TimeDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeDate.h; sourceTree = "<group>"; };
-		9B88FF792139318B006863D8 /* TimeDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeDate.m; sourceTree = "<group>"; };
+		9B88FF7C213941DF006863D8 /* TimeDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeDate.m; sourceTree = "<group>"; };
+		9B88FF7D213941DF006863D8 /* TimeDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeDate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 		9B88FF7321393039006863D8 /* TimeDate */ = {
 			isa = PBXGroup;
 			children = (
-				9B88FF782139318B006863D8 /* TimeDate.h */,
-				9B88FF792139318B006863D8 /* TimeDate.m */,
+				9B88FF7D213941DF006863D8 /* TimeDate.h */,
+				9B88FF7C213941DF006863D8 /* TimeDate.m */,
 			);
 			path = TimeDate;
 			sourceTree = "<group>";
@@ -121,7 +121,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B88FF7A2139318B006863D8 /* TimeDate.h in Headers */,
+				9B88FF7F213941DF006863D8 /* TimeDate.h in Headers */,
 				9B88FF6921392FD3006863D8 /* LuckinTimeDate.h in Headers */,
 				9B88FF762139312A006863D8 /* LuckinBaseManager.h in Headers */,
 			);
@@ -223,7 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B88FF7B2139318B006863D8 /* TimeDate.m in Sources */,
+				9B88FF7E213941DF006863D8 /* TimeDate.m in Sources */,
 				9B88FF772139312A006863D8 /* LuckinBaseManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
