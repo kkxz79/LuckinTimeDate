@@ -10,6 +10,10 @@
 		9B88FF6221392FD3006863D8 /* LuckinTimeDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B88FF5821392FD3006863D8 /* LuckinTimeDate.framework */; };
 		9B88FF6721392FD3006863D8 /* LuckinTimeDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF6621392FD3006863D8 /* LuckinTimeDateTests.m */; };
 		9B88FF6921392FD3006863D8 /* LuckinTimeDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B88FF5B21392FD3006863D8 /* LuckinTimeDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B88FF762139312A006863D8 /* LuckinBaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B88FF742139312A006863D8 /* LuckinBaseManager.h */; };
+		9B88FF772139312A006863D8 /* LuckinBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF752139312A006863D8 /* LuckinBaseManager.m */; };
+		9B88FF7A2139318B006863D8 /* TimeDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B88FF782139318B006863D8 /* TimeDate.h */; };
+		9B88FF7B2139318B006863D8 /* TimeDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF792139318B006863D8 /* TimeDate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		9B88FF6121392FD3006863D8 /* LuckinTimeDateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckinTimeDateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B88FF6621392FD3006863D8 /* LuckinTimeDateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckinTimeDateTests.m; sourceTree = "<group>"; };
 		9B88FF6821392FD3006863D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B88FF742139312A006863D8 /* LuckinBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuckinBaseManager.h; sourceTree = "<group>"; };
+		9B88FF752139312A006863D8 /* LuckinBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckinBaseManager.m; sourceTree = "<group>"; };
+		9B88FF782139318B006863D8 /* TimeDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeDate.h; sourceTree = "<group>"; };
+		9B88FF792139318B006863D8 /* TimeDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeDate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +79,10 @@
 		9B88FF5A21392FD3006863D8 /* LuckinTimeDate */ = {
 			isa = PBXGroup;
 			children = (
+				9B88FF7221393039006863D8 /* Classes */,
 				9B88FF5B21392FD3006863D8 /* LuckinTimeDate.h */,
+				9B88FF742139312A006863D8 /* LuckinBaseManager.h */,
+				9B88FF752139312A006863D8 /* LuckinBaseManager.m */,
 				9B88FF5C21392FD3006863D8 /* Info.plist */,
 			);
 			path = LuckinTimeDate;
@@ -86,6 +97,23 @@
 			path = LuckinTimeDateTests;
 			sourceTree = "<group>";
 		};
+		9B88FF7221393039006863D8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9B88FF7321393039006863D8 /* TimeDate */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9B88FF7321393039006863D8 /* TimeDate */ = {
+			isa = PBXGroup;
+			children = (
+				9B88FF782139318B006863D8 /* TimeDate.h */,
+				9B88FF792139318B006863D8 /* TimeDate.m */,
+			);
+			path = TimeDate;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +121,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B88FF7A2139318B006863D8 /* TimeDate.h in Headers */,
 				9B88FF6921392FD3006863D8 /* LuckinTimeDate.h in Headers */,
+				9B88FF762139312A006863D8 /* LuckinBaseManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +223,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B88FF7B2139318B006863D8 /* TimeDate.m in Sources */,
+				9B88FF772139312A006863D8 /* LuckinBaseManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
