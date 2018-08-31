@@ -10,10 +10,10 @@
 		9B88FF6221392FD3006863D8 /* LuckinTimeDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B88FF5821392FD3006863D8 /* LuckinTimeDate.framework */; };
 		9B88FF6721392FD3006863D8 /* LuckinTimeDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF6621392FD3006863D8 /* LuckinTimeDateTests.m */; };
 		9B88FF6921392FD3006863D8 /* LuckinTimeDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B88FF5B21392FD3006863D8 /* LuckinTimeDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B88FF762139312A006863D8 /* LuckinBaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B88FF742139312A006863D8 /* LuckinBaseManager.h */; };
 		9B88FF772139312A006863D8 /* LuckinBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF752139312A006863D8 /* LuckinBaseManager.m */; };
 		9B88FF7E213941DF006863D8 /* TimeDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF7C213941DF006863D8 /* TimeDate.m */; };
 		9B88FF7F213941DF006863D8 /* TimeDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B88FF7D213941DF006863D8 /* TimeDate.h */; };
+		9B88FF8021394427006863D8 /* LuckinBaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B88FF742139312A006863D8 /* LuckinBaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,8 +81,6 @@
 			children = (
 				9B88FF7221393039006863D8 /* Classes */,
 				9B88FF5B21392FD3006863D8 /* LuckinTimeDate.h */,
-				9B88FF742139312A006863D8 /* LuckinBaseManager.h */,
-				9B88FF752139312A006863D8 /* LuckinBaseManager.m */,
 				9B88FF5C21392FD3006863D8 /* Info.plist */,
 			);
 			path = LuckinTimeDate;
@@ -101,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				9B88FF7321393039006863D8 /* TimeDate */,
+				9B88FF742139312A006863D8 /* LuckinBaseManager.h */,
+				9B88FF752139312A006863D8 /* LuckinBaseManager.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -121,9 +121,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B88FF7F213941DF006863D8 /* TimeDate.h in Headers */,
 				9B88FF6921392FD3006863D8 /* LuckinTimeDate.h in Headers */,
-				9B88FF762139312A006863D8 /* LuckinBaseManager.h in Headers */,
+				9B88FF7F213941DF006863D8 /* TimeDate.h in Headers */,
+				9B88FF8021394427006863D8 /* LuckinBaseManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
