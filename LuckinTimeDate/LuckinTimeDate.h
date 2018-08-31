@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double LuckinTimeDateVersionNumber;
 FOUNDATION_EXPORT const unsigned char LuckinTimeDateVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LuckinTimeDate/PublicHeader.h>
-
+#import <LuckinTimeDate/LuckinBaseManager.h>
 

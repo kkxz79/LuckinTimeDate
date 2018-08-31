@@ -6,7 +6,7 @@
 //  Copyright © 2018年 kkxz. All rights reserved.
 //
 
-#import "LuckinBaseManager.h"
+#import <LuckinTimeDate/LuckinTimeDate.h>
 
 @interface TimeDate : LuckinBaseManager
 
