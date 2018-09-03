@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B5B1B62213CC59000AEA159 /* LuckinTimeDate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B5B1B61213CC59000AEA159 /* LuckinTimeDate.bundle */; };
 		9B88FF6221392FD3006863D8 /* LuckinTimeDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B88FF5821392FD3006863D8 /* LuckinTimeDate.framework */; };
 		9B88FF6721392FD3006863D8 /* LuckinTimeDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF6621392FD3006863D8 /* LuckinTimeDateTests.m */; };
 		9B88FF6921392FD3006863D8 /* LuckinTimeDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B88FF5B21392FD3006863D8 /* LuckinTimeDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -15,6 +14,7 @@
 		9B88FF7E213941DF006863D8 /* TimeDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF7C213941DF006863D8 /* TimeDate.m */; };
 		9B88FF7F213941DF006863D8 /* TimeDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B88FF7D213941DF006863D8 /* TimeDate.h */; };
 		9B88FF8021394427006863D8 /* LuckinBaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B88FF742139312A006863D8 /* LuckinBaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BE2E1F4213CD49F0059B176 /* LuckinTimeDate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BE2E1F3213CD49F0059B176 /* LuckinTimeDate.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9B5B1B61213CC59000AEA159 /* LuckinTimeDate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LuckinTimeDate.bundle; sourceTree = "<group>"; };
 		9B88FF5821392FD3006863D8 /* LuckinTimeDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LuckinTimeDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B88FF5B21392FD3006863D8 /* LuckinTimeDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuckinTimeDate.h; sourceTree = "<group>"; };
 		9B88FF5C21392FD3006863D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,6 +38,7 @@
 		9B88FF752139312A006863D8 /* LuckinBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckinBaseManager.m; sourceTree = "<group>"; };
 		9B88FF7C213941DF006863D8 /* TimeDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeDate.m; sourceTree = "<group>"; };
 		9B88FF7D213941DF006863D8 /* TimeDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeDate.h; sourceTree = "<group>"; };
+		9BE2E1F3213CD49F0059B176 /* LuckinTimeDate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LuckinTimeDate.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,6 @@
 		9B88FF4E21392FD3006863D8 = {
 			isa = PBXGroup;
 			children = (
-				9B5B1B61213CC59000AEA159 /* LuckinTimeDate.bundle */,
 				9B88FF5A21392FD3006863D8 /* LuckinTimeDate */,
 				9B88FF6521392FD3006863D8 /* LuckinTimeDateTests */,
 				9B88FF5921392FD3006863D8 /* Products */,
@@ -82,6 +81,7 @@
 		9B88FF5A21392FD3006863D8 /* LuckinTimeDate */ = {
 			isa = PBXGroup;
 			children = (
+				9BE2E1F3213CD49F0059B176 /* LuckinTimeDate.bundle */,
 				9B88FF7221393039006863D8 /* Classes */,
 				9B88FF5B21392FD3006863D8 /* LuckinTimeDate.h */,
 				9B88FF5C21392FD3006863D8 /* Info.plist */,
@@ -209,7 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B5B1B62213CC59000AEA159 /* LuckinTimeDate.bundle in Resources */,
+				9BE2E1F4213CD49F0059B176 /* LuckinTimeDate.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
